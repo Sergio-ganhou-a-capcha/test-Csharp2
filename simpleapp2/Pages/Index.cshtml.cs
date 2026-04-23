@@ -13,6 +13,7 @@ public class IndexModel : PageModel{
     public IndexModel(IHttpClientFactory httpClientFactory){
         _httpClientFactory = httpClientFactory;
     }
+    /*
     public List<Pais> Paises { get; set; } = new();
     public async Task OnGetAsync(){
 
@@ -35,7 +36,8 @@ public class IndexModel : PageModel{
                 FlagUrl = d.flags?.png
             }).ToList();
         }
-    }
+    }*/
+    
     /*
 
 private readonly ILogger<IndexModel> _logger;
